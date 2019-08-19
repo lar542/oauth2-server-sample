@@ -60,6 +60,11 @@ public class Application extends ResourceServerConfigurerAdapter{
 		};
 	}
 	
+	/**
+	 * JdbcTokenStore 설정 : DB에 토큰을 저장 
+	 * @param dataSource
+	 * @return
+	 */
 	@Bean
 	public TokenStore JdbcTokenStore(DataSource dataSource) {
 		return new JdbcTokenStore(dataSource);
