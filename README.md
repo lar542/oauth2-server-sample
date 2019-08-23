@@ -23,3 +23,6 @@ REST API 서버를 쉽게 만들어 준다.(Web을 포함하지 않아도 스프
 * H2 : 가벼운 내장형 DB
 * Lombok
 * pom.xml에 OAuth2 의존성 추가
+
+
+출처 : [Spring Boot로 만드는 OAuth2 시스템](https://brunch.co.kr/@sbcoba/1)
