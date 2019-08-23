@@ -20,7 +20,8 @@ security:
       client-id: foo
       client-secret: bar
     authorization:
-      check-token-access: isAuthenticated()
+      token-key-access: isAuthenticated()
+      # JWT에서 사용된 서명 정보를 검증할 key를 얻어오기 위한 API를 열어주기 위한 설정
 
 logging.level:
   org.springframework:

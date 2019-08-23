@@ -18,7 +18,8 @@ security:
       client-id: foo
       client-secret: bar
     resource:
-      token-info-uri: http://localhost:8080/oauth/check_token
+      jwt.key-uri: http://localhost:8080/oauth/token_key
+      # OAuth2 서버에서 열어준 검증용 key 값을 얻어오기 위한 API의 URL을 지정
 
 logging.level:
   org.springframework:
